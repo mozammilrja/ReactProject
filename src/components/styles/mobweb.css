@@ -1,0 +1,427 @@
+.c-title {
+    overflow: auto;
+    background-color: rgb(240, 240, 240);
+}
+
+.c-title::-webkit-scrollbar {
+    display: none;
+}
+
+.c-list::-webkit-scrollbar {
+    display: none;
+}
+
+.c-quiz {
+    width: 50%;
+    margin: 40px auto 50px auto;
+}
+
+.c-ques {
+    font-size: 39.3px;
+}
+
+.c-ans, .c-ques-options {
+    color: grey;
+    margin-top: -24px;
+    font-size: 20px;
+}
+
+.c-ques-options {
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.c-list {
+    background-color: rgb(240, 240, 240);
+    overflow: auto;
+}
+
+.c-left {
+    width: 28%;
+    float: left;
+}
+
+.c-header {
+    float: right;
+    font-size: 20px;
+    margin: 54px -21px;
+    width: 200px;
+}
+
+.c-right {
+    width: 68%;
+    float: left;
+}
+
+.c-boxes {
+    margin: 55px 70px;
+    overflow: auto;
+}
+
+.cc-box {
+    width: 138px;
+    margin: 2px 10px 15.5px 10px;
+    border-radius: 18px;
+    height: 130px;
+    border: 2px black solid;
+    float: left;
+    cursor: pointer;
+}
+
+.cc-box:hover {
+    border: 2px rgb(16, 211, 195) solid;
+}
+
+.c-box {
+    width: 138px;
+    margin: 2px 10px 15.5px 10px;
+    border-radius: 18px;
+    height: 130px;
+    border: 2px black solid;
+    float: left;
+    cursor: pointer;
+}
+
+.c-box:hover {
+    border: 2px rgb(16, 211, 195) solid;
+}
+
+.label-radio:checked + .c-box {
+    background-color: rgb(16, 211, 195);
+    border: 2px rgb(16, 211, 195) solid;
+}
+
+.label-radio {
+    position: absolute;
+    display: none;
+}
+
+
+.c-name {
+    font-size: 14px;
+    margin: 12px 13.5px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 860px) {
+    .c-left {
+        width: 100%;
+    }
+
+    .c-header {
+        float: left;
+    }
+
+    .c-right {
+        width: 100%;
+    }
+
+    .c-boxes {
+        margin: -31px 15px 15px 15px;
+    }
+
+    .c-quiz {
+        width: 100%;
+        margin: 21px;
+    }
+
+    .c-header {
+        width: 100%;
+        margin-left: 33px;
+    }
+}
+
+.form-part {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: auto;
+}
+
+.ads {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.c-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 27px;
+}
+
+.c-input, .c-input1 {
+    margin: 18.5px;
+    padding: 18px 12px;
+    width: 273px;
+    border: 1px rgb(172, 171, 171) solid;
+}
+
+.c-input1 {
+    padding-left: 52px;
+    width: 238px;
+}
+
+
+.sel-box {
+    color: white;
+    border: 2px white solid;
+}
+
+.sel-box:hover {
+    border: 1px white solid;
+    color: rgb(216, 89, 89);
+}
+
+@media screen and (max-width: 800px) {
+    .c-input1 {
+        width: 88%;
+        margin-left: -20px;
+    }
+
+    .c-input {
+        width: 235px;
+    }
+
+    .c-flag {
+        left: 30.5%;
+    }
+
+    .ads {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .c-input1 {
+        width: 57%;
+        margin-left: 18px;
+    }
+
+    .c-input {
+        width: 190px;
+        margin-left: 11px;
+    }
+
+    .c-flag {
+        left: auto;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .c-input {
+        width: 172px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .c-input1 {
+        width: 120px;
+        margin-left: 18px;
+    }
+
+    .c-input {
+        width: 160px;
+        margin-right: 18px;
+    }
+
+    .ads {
+        width: 220px;
+    }
+}
+
+.c-textarea {
+    height: 81.5px;
+}
+
+.c-final {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 530px;
+}
+
+@media screen and (max-width: 650px) {
+    .c-final {
+        width: 100%;
+    }
+
+    .radio {
+        margin-left: 7%;
+    }
+}
+
+.calc-btn {
+    padding: 18px;
+    color: white;
+    background-color: rgb(216, 89, 89);
+    outline: none;
+    font-size: 19px;
+    border-radius: 8px;
+    width: 299px;
+    cursor: pointer;
+    margin: 33px 0px;
+}
+
+.calc-btn:hover {
+    background-color: rgb(219, 56, 56);
+}
+
+.c-sel {
+    cursor: pointer;
+}
+
+.custom_radio{
+    margin: 20px;
+ }
+.c-sel {
+   display: none;
+}
+
+.green {
+    background-color: rgb(16, 211, 195);
+    border: 2px rgb(16, 211, 195) solid;
+}
+
+.c-sel + .sel-label {
+   position: relative;
+   display: inline-block;
+   padding-left: 1.5em;
+   margin-right: 2em;
+   cursor: pointer;
+   line-height: 1em;
+ }
+.c-sel + .sel-label:before,
+.c-sel + .sel-label:after{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin-left: -12px;
+   margin-top: -2px;
+   width: 20px;
+   height: 20px;
+   text-align: center;
+   color: white;
+   font-family: Times;
+   border-radius: 50%;
+   border: 1px grey solid;
+ }
+ .c-sel:checked + .sel-label:before {
+   box-shadow: inset 0 0 0 0.289em white, inset 0 0 0 1em rgb(216, 89, 89);
+ }
+
+.boxes {
+    margin: 38px 40px 18.5px -15px;
+}
+
+.c-caround {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    border: 1px grey solid;
+}
+
+.c-cbox { display: none; }
+
+.c-cbox + .c-clabel {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  font: 14px/20px 'Open Sans', Arial, sans-serif;
+  color: rgb(216, 89, 89);
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.c-cbox + .c-clabel:last-child { margin-bottom: 0; }
+
+.c-cbox + .c-clabel:before {
+  content: '';
+  display: block;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+}
+
+.c-cbox:checked + .c-clabel:before {
+  width: 0px;
+  height: 8.3px;
+  top: 0.5px;
+  left: 7px;
+  border: 2.5px rgb(216, 89, 89) solid;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c-clabel:hover {
+    text-decoration: underline;
+}
+
+.c-flag {
+    position: absolute;
+    padding: 11.5px 13px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.c-flag:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.boxes {
+    margin-left: 10%;
+    width: 300px;
+}
+
+
+@media screen and (max-width: 840px) {
+
+    .boxes {
+    }
+}
+
+.c-code {
+    position: absolute;
+    margin: -20px 0px 0px 18px;
+    width: 303px;
+    height: 270px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.c-dataList {
+    padding: 4px 8px;
+    margin: 5px 1px;
+    cursor: pointer;
+}
+
+.c-dataList:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.c-alert {
+    color: rgb(216, 89, 89);
+}

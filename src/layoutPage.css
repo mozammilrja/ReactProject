@@ -1,0 +1,393 @@
+.header_img {
+    padding-top: 15px;
+    margin-top: 15px;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner {
+}
+
+.layout-left, .layout-right {
+    margin: 0px;
+    width: 48%;
+    float: left;
+    overflow: auto;
+}
+
+.banner::-webkit-scrollbar {
+    display: none;
+}
+
+.meeting {
+    margin-top: -54px;
+    margin-lefT: -10px;
+}
+
+.l-request {
+    margin-left: -5px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 650px) {
+    .l-request {
+        margin-top: 22px;
+    }
+}
+ 
+.layout-right > img {
+    width: 110%;
+    height: 580px;
+}
+
+.menu {
+    margin: 23px 23px 23px 0px;
+    display: none;
+}
+
+.arrow {
+    color: white;
+    font-size: 18px;
+    margin: 0px 3px -2px 4px;
+}
+
+.arrow-right {
+    width: 20px;
+    margin: 0px 8px;
+}
+
+.item > a {
+    text-decoration: none;
+    font: normal normal medium 32px/37px HelveticaNeue;
+    letter-spacing: 0.64px;
+}
+
+.change-btn, .sub-change-btn {
+    background-color: black;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: 500;
+    color: white;
+    font-size: 14px;
+    margin-top: -6px;
+}
+
+.change-btn {
+    margin-top: -9px;
+}
+
+.sub-change-btn {
+    width: 200px;
+    margin: 5.5px 0px;
+    padding: 8px 0px;
+    font-size: 16px;
+}
+
+.calc-options  {
+    width: 630px;
+    margin-top: 200px;
+    margin-bottom: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.mw {
+    overflow: auto;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sel-options {
+    background-color: rgba(0, 0, 0, 0.842);
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    margin-top: -55px;
+    width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+
+    .layout-left, .layout-right {
+        width: 100%;
+    }
+
+    .layout-right > img {
+        width: 90%;
+        height: 100%;
+        margin-top: -25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banner {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .layout-right {
+        grid-row-start: 1;
+    }
+
+}
+
+.sub-item {
+    display: none;
+    font: normal normal medium 32px/37px HelveticaNeue;
+    letter-spacing: 0.64px;
+    font-weight: 500;
+    padding: 10px 0px;
+    margin: 1px 0px;
+    color: white;
+    margin-left: -18px;
+}
+
+.item1 > button {
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.item, .item1 {
+    margin: 0px 20px;
+}
+
+.contact-item, .c-s-item {
+    background-color: black;
+    border-radius: 50px;
+    padding: 8px 12.5px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.contact-item {
+    margin-top: 3px;
+    padding: 8.2px 12.5px;
+}
+
+.c-s-item {
+    display: none;
+}
+
+.contact-num {
+    font-size: 13.8px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 960px) {
+    .nav {
+        width: 168px;
+        margin-top: -6px;
+    }
+
+    .ul-nav {
+        background-color: azure;
+    }
+
+    .c-s-item {
+        display: block;
+        border-radius: 50px;
+        position: absolute;
+        margin-top: 14px;
+        padding-top: 4.5px;
+        padding-bottom: 4px;
+        margin-left: -50px;
+    }
+
+    .contact-num {
+        font-weight: 500;
+    }
+
+    .contact-num1 {
+        margin-top: 5px;
+    }
+
+    .arrow {
+        width: 11.3px;
+        margin: 0px 3px -3.5px 4px;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .item1 {
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+
+    .item1 > button {
+        font-size: 13px;
+        width: 120px;
+        border-radius: 50px;
+        margin-top: 13px;
+    }
+
+    .arrow-right {
+        width: 13px;
+    }
+    
+    .menu {
+        margin-top: 20px;
+        margin-right: 20px;
+        float: right;
+        display: block;
+        cursor: pointer;
+    }
+
+    .header_contact_button {
+        margin-right: 0px;
+    }
+
+    .main_part_button1 > button, .main_part_button2 > button {
+        font-size: 12px;
+    }
+
+    .sub-item {
+        display: block;
+    }
+
+    .sub-item > a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.selector {
+    width: 550px;
+}
+ 
+.item, .item1 {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: HelveticaNeue;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 21px;
+    color: white;
+    border-radius: 7px;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.black {
+    background-color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.rep {
+    width: 15px;
+    margin: 1px 4px 0px 10px;
+}
+
+
+.layout-left {
+    margin-top: 115px;
+    margin-left: 17px;
+}
+
+.layout-right {
+    margin-top: 75px;
+    overflow: hidden;
+}
+
+.n-logo {
+    margin-top: 10px;
+    margin-left: -10px;
+    width: 0px;
+}
+
+@media screen and (max-width: 650px) {
+    .btn {
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .rep {
+        width: 10px;
+        margin: 1px 3px 0px 5px;
+    }
+
+    .meeting {
+        margin: 0px;
+    }
+
+    .calc-options {
+        width: 100%;
+    }
+
+    .layout-left {
+        margin-top: 15px;
+    }
+
+    .layout-right {
+        margin-top: 42px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .c-s-item {
+        font-size: 11px;
+        padding: 3px 5px;
+        margin-top: 17px;
+        margin-left: -13px;
+    }
+
+    .n-logo {
+        max-width: 70px;
+        margin-top: 17.5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .layout-left {
+        margin-top: -1%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .meeting {
+        height: 310px;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    .rep {
+        width: 8px;
+    }
+
+    .item1 button {
+        padding: 0px;
+        width: 90px;
+    }
+
+    .arrow-right {
+        margin: -0.5px 2px;
+    }
+
+    .n-logo {
+        width: 60px;
+        margin-top: 19px;
+        margin-right: 4px;
+    }
+    
+}

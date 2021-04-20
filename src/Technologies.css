@@ -1,0 +1,61 @@
+.technologies {
+  margin-top: 80px;
+  overflow: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  grid-gap: 30px;
+  justify-content: space-around;
+}
+
+.grid-tile {
+  border: 1px solid rgb(175, 175, 192);
+  padding: 1em;
+  margin: 7px;
+  height: 210px;
+}
+
+.title {
+  color: blue;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.description {
+  color: gray;
+  font-size: 19px;
+}
+
+.main {
+  padding: 10px;
+  margin: auto;
+  max-width: 90vw;
+}
+
+.main-title {
+  font-size: 50px;
+  padding-bottom: 15px;
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 650px) {
+  .tech-title {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .grid-tile {
+    width: 80%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

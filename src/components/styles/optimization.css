@@ -1,0 +1,30 @@
+
+.width {
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    margin-bottom: 150px;
+    overflow: auto;
+  }
+
+.left {
+  overflow: hidden;
+}
+  
+  .opti-image {
+    width: 105%;
+    height: 480px;
+    margin-left: -47px;
+  } 
+
+  @media screen and (max-width: 650px) {
+    .opti-image {
+      margin-left: 0px;
+      margin-top: -70px;
+    }
+  }
+
+  .points {
+    margin-top: 45px;
+  }
